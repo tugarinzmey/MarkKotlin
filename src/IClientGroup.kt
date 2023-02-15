@@ -4,5 +4,6 @@ interface IClientGroup {
     fun sortByDiscount()
     fun filterByDiscount()
     fun addClient(newClient: Client)
-    fun showFullList()
+    fun display()
+    fun removeClient(clientToRemove: Client)
 }

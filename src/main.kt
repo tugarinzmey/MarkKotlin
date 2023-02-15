@@ -13,7 +13,7 @@ fun main(){
     groupExample.addClient(client4)
     groupExample.addClient(client5)
 
-    groupExample.showFullList()
+    groupExample.display()
     groupExample.sortByDiscount()
     groupExample.filterByDiscount()
 }
